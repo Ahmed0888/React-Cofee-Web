@@ -1,13 +1,13 @@
 .footer {
   background-color: #3e2723;
   padding: 18px;
-  text-align: center; /* fallback */
+  text-align: center; 
   color: #fffbea;
   margin-top: 40px;
   display: flex;
-  justify-content: center; /* horizontal center */
-  align-items: center;     /* vertical center */
-  gap: 15px; /* links ke beech spacing */
+  justify-content: center; /* horizontal center kay liyay */
+  align-items: center;     /* vertical center kay liyay */
+  gap: 15px; 
 }
 
 .footer a {

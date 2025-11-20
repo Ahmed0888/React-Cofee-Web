@@ -48,11 +48,11 @@
   margin-bottom: 15px;
   font-size: 32px;
 }
-
+/* menu */
 .menu-section {
   text-align: center;
   padding: 50px 20px;
-  background-color: #f7f1e3; /* light coffee-ish background */
+  background-color: #f7f1e3; 
 }
 
 .menu-section h2 {
