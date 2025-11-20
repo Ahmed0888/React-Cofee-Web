@@ -1,0 +1,16 @@
+.footer {
+  background-color: #3e2723;
+  padding: 18px;
+  text-align: center; /* fallback */
+  color: #fffbea;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  gap: 15px; /* links ke beech spacing */
+}
+
+.footer a {
+  color: #ffcc80;
+  text-decoration: none;
+}

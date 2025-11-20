@@ -1,0 +1,115 @@
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.2) 60%
+    ),
+    url("/Images/coffee-banner.jpg") center/cover no-repeat;
+
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 58px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  padding: 12px 28px;
+  border: none;
+  font-size: 16px;
+  background-color: #6d4c41;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background-color: #4e342e;
+}
+
+/* ABOUT */
+.about-section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.about-section h2 {
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+
+.menu-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f7f1e3; /* light coffee-ish background */
+}
+
+.menu-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #3e2723;
+}
+
+.menu-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.menu-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.menu-card h3 {
+  color: #3e2723;
+  margin-bottom: 10px;
+}
+
+.menu-card p {
+  font-size: 0.95rem;
+  color: #5d4037;
+  margin-bottom: 15px;
+}
+
+.menu-card button {
+  background-color: #6d4c41;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu-card button:hover {
+  background-color: #5d4037;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
